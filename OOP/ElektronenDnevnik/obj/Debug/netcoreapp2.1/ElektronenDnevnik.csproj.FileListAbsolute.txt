@@ -1,0 +1,11 @@
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\bin\Debug\netcoreapp2.1\ElektronenDnevnik.deps.json
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\bin\Debug\netcoreapp2.1\ElektronenDnevnik.runtimeconfig.json
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\bin\Debug\netcoreapp2.1\ElektronenDnevnik.runtimeconfig.dev.json
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\bin\Debug\netcoreapp2.1\ElektronenDnevnik.dll
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\bin\Debug\netcoreapp2.1\ElektronenDnevnik.pdb
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.csprojAssemblyReference.cache
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.csproj.CoreCompileInputs.cache
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.AssemblyInfoInputs.cache
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.AssemblyInfo.cs
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.dll
+D:\11 A\11-PP-2021\OOP\ElektronenDnevnik\obj\Debug\netcoreapp2.1\ElektronenDnevnik.pdb
