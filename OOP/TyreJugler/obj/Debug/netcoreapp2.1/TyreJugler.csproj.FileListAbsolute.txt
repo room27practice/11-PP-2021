@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\11A\TyreJugler\bin\Debug\netcoreapp2.1\TyreJugler.deps.json
+C:\Users\PC\source\repos\11A\TyreJugler\bin\Debug\netcoreapp2.1\TyreJugler.runtimeconfig.json
+C:\Users\PC\source\repos\11A\TyreJugler\bin\Debug\netcoreapp2.1\TyreJugler.runtimeconfig.dev.json
+C:\Users\PC\source\repos\11A\TyreJugler\bin\Debug\netcoreapp2.1\TyreJugler.dll
+C:\Users\PC\source\repos\11A\TyreJugler\bin\Debug\netcoreapp2.1\TyreJugler.pdb
+C:\Users\PC\source\repos\11A\TyreJugler\obj\Debug\netcoreapp2.1\TyreJugler.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\11A\TyreJugler\obj\Debug\netcoreapp2.1\TyreJugler.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\11A\TyreJugler\obj\Debug\netcoreapp2.1\TyreJugler.AssemblyInfo.cs
+C:\Users\PC\source\repos\11A\TyreJugler\obj\Debug\netcoreapp2.1\TyreJugler.dll
+C:\Users\PC\source\repos\11A\TyreJugler\obj\Debug\netcoreapp2.1\TyreJugler.pdb

@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.AssemblyInfo.cs
+C:\Users\PC\source\repos\11A\Structura\bin\Debug\netcoreapp2.1\Structura.deps.json
+C:\Users\PC\source\repos\11A\Structura\bin\Debug\netcoreapp2.1\Structura.runtimeconfig.json
+C:\Users\PC\source\repos\11A\Structura\bin\Debug\netcoreapp2.1\Structura.runtimeconfig.dev.json
+C:\Users\PC\source\repos\11A\Structura\bin\Debug\netcoreapp2.1\Structura.dll
+C:\Users\PC\source\repos\11A\Structura\bin\Debug\netcoreapp2.1\Structura.pdb
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.dll
+C:\Users\PC\source\repos\11A\Structura\obj\Debug\netcoreapp2.1\Structura.pdb

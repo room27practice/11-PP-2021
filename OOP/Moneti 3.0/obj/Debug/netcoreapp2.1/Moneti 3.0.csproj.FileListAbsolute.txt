@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\Moneti 3.0.deps.json
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\Moneti 3.0.runtimeconfig.json
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\Moneti 3.0.runtimeconfig.dev.json
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\Moneti 3.0.dll
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\Moneti 3.0.pdb
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.AssemblyInfo.cs
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.dll
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.pdb
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\PC\source\repos\11A\Moneti 3.0\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\PC\source\repos\11A\Moneti 3.0\obj\Debug\netcoreapp2.1\Moneti 3.0.csproj.CopyComplete
