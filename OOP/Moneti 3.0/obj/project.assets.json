@@ -713,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 3.0\\Moneti 3.0.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 3.0\\Moneti 3.0.csproj",
       "projectName": "Moneti 3.0",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 3.0\\Moneti 3.0.csproj",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 3.0\\Moneti 3.0.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 3.0\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 3.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -736,8 +736,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj"
+            "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp1\\ConsoleApp1.csproj": {
+              "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp1\\ConsoleApp1.csproj"
             }
           }
         }

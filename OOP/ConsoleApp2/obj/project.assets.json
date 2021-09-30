@@ -713,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp2\\ConsoleApp2.csproj",
       "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp2\\ConsoleApp2.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -736,8 +736,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj"
+            "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp1\\ConsoleApp1.csproj": {
+              "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\ConsoleApp1\\ConsoleApp1.csproj"
             }
           }
         }

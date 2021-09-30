@@ -207,19 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "ConsoleApp1/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/ConsoleApp1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ConsoleApp1.dll": {}
-        }
       }
     }
   },
@@ -693,16 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "ConsoleApp1/1.0.0": {
-      "type": "project",
-      "path": "../ConsoleApp1/ConsoleApp1.csproj",
-      "msbuildProject": "../ConsoleApp1/ConsoleApp1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "ConsoleApp1 >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -713,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\ConsoleApp2.csproj",
-      "projectName": "ConsoleApp2",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\TyreJugler\\TyreJugler.csproj",
+      "projectName": "TyreJugler",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\TyreJugler\\TyreJugler.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp2\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\TyreJugler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -735,11 +716,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\ConsoleApp1\\ConsoleApp1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

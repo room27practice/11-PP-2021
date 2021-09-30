@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\Methods And Constructors\\Methods And Constructors.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\Methods And Constructors\\Methods And Constructors.csproj",
       "projectName": "Methods And Constructors",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\Methods And Constructors\\Methods And Constructors.csproj",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\Methods And Constructors\\Methods And Constructors.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\Methods And Constructors\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\Methods And Constructors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

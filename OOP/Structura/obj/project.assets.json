@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\Structura\\Structura.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\Structura\\Structura.csproj",
       "projectName": "Structura",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\Structura\\Structura.csproj",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\Structura\\Structura.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\Structura\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\Structura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

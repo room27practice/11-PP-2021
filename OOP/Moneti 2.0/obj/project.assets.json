@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 2.0\\Moneti 2.0.csproj",
+      "projectUniqueName": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 2.0\\Moneti 2.0.csproj",
       "projectName": "Moneti 2.0",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 2.0\\Moneti 2.0.csproj",
+      "projectPath": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 2.0\\Moneti 2.0.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\11A\\Moneti 2.0\\obj\\",
+      "outputPath": "D:\\11 A\\11-PP-2021\\OOP\\Moneti 2.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
