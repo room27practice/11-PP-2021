@@ -1,0 +1,11 @@
+D:\11 A\11-PP-2021\OOP\Stack And Heep\bin\Debug\netcoreapp2.1\Stack And Heep.deps.json
+D:\11 A\11-PP-2021\OOP\Stack And Heep\bin\Debug\netcoreapp2.1\Stack And Heep.runtimeconfig.json
+D:\11 A\11-PP-2021\OOP\Stack And Heep\bin\Debug\netcoreapp2.1\Stack And Heep.runtimeconfig.dev.json
+D:\11 A\11-PP-2021\OOP\Stack And Heep\bin\Debug\netcoreapp2.1\Stack And Heep.dll
+D:\11 A\11-PP-2021\OOP\Stack And Heep\bin\Debug\netcoreapp2.1\Stack And Heep.pdb
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.csproj.CoreCompileInputs.cache
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.AssemblyInfoInputs.cache
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.AssemblyInfo.cs
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.dll
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.pdb
+D:\11 A\11-PP-2021\OOP\Stack And Heep\obj\Debug\netcoreapp2.1\Stack And Heep.csprojAssemblyReference.cache

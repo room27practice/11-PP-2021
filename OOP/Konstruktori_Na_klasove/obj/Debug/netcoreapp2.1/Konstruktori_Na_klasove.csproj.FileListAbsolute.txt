@@ -1,0 +1,11 @@
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\bin\Debug\netcoreapp2.1\Konstruktori_Na_klasove.deps.json
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\bin\Debug\netcoreapp2.1\Konstruktori_Na_klasove.runtimeconfig.json
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\bin\Debug\netcoreapp2.1\Konstruktori_Na_klasove.runtimeconfig.dev.json
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\bin\Debug\netcoreapp2.1\Konstruktori_Na_klasove.dll
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\bin\Debug\netcoreapp2.1\Konstruktori_Na_klasove.pdb
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.csprojAssemblyReference.cache
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.csproj.CoreCompileInputs.cache
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.AssemblyInfoInputs.cache
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.AssemblyInfo.cs
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.dll
+D:\11 A\11-PP-2021\OOP\Konstruktori_Na_klasove\obj\Debug\netcoreapp2.1\Konstruktori_Na_klasove.pdb
