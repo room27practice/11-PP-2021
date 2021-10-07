@@ -6,12 +6,13 @@ namespace ElektronenDnevnik
 {
     public class SubjectGrades
     {
-        private List<int> grades { get; set; }
-
         public SubjectGrades()
         {
             grades = new List<int>();
         }
+
+        private List<int> grades { get; set; }
+
         public Subject Subject { get; set; }
 
         public void AddGrade(int grade)
