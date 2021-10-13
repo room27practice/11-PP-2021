@@ -1,0 +1,36 @@
+
+
+html {
+    /* font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5; */
+    font:16px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body,main,nav,div,span,h1,h2,h3,h4,h5,h6,ul,span,p,li,main,footer,form,input
+{
+    padding:0;
+    margin:0;
+    font: inherit;
+    box-sizing: inherit;
+}
+
+h6{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.9rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 2.9rem;
+}

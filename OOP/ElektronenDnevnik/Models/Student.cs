@@ -13,7 +13,6 @@ namespace ElektronenDnevnik
             Name = name;
         }
 
-
         public Student()
         {
             studentCounter++;
