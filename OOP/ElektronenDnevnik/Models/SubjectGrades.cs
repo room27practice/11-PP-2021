@@ -44,6 +44,5 @@ namespace ElektronenDnevnik
 
             return (int)Math.Round(avg, 0);
         }
-
     }
 }

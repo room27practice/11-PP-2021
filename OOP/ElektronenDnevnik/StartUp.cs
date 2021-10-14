@@ -60,6 +60,8 @@ namespace ElektronenDnevnik
                         {
                             Console.WriteLine("Choose command [Get Grades of Student=1][Get Grades for Subject=2][exit]");
                             choise = Console.ReadLine();
+
+
                             break;
                         }
                     case "write":
@@ -90,12 +92,20 @@ namespace ElektronenDnevnik
                                 {
                                     std.SubjectsGrades.Add(new SubjectGrades() { Subject = subj });
                                 }
-
                             }
+                            if (choise == "3")
+                            {
+                                Subject selectedSub = ChooseSubject(subjects);
+                                Student selectedStudent = ChooseStudent(students);
+                                Console.Write("Input Grade:");
+                                int grade = int.Parse(Console.ReadLine());
+                                var subjectGrade = selectedStudent.SubjectsGrades.Where(x => x.Subject == selectedSub).First();
+                                subjectGrade.AddGrade(grade);
+                            }
+
                             break;
                         }
                 }
-
                 if (choise == "exit")
                 {
                     Console.WriteLine($"Choose menu [{string.Join("][", menuOptions)}]...");
@@ -115,6 +125,32 @@ namespace ElektronenDnevnik
 
 
 
+        }
+
+        private static Student ChooseStudent(List<Student> students)
+        {
+            Console.WriteLine("Choose Subject...");
+
+            for (int i = 0; i < students.Count; i++)
+            {
+                Console.Write("[" + students[i].Name + $"= {i + 1}]");
+            }
+
+            int selectedSubjectIndex = int.Parse(Console.ReadLine()) - 1;
+            return students[selectedSubjectIndex];
+        }
+
+        private static Subject ChooseSubject(List<Subject> subjects)
+        {
+            Console.WriteLine("Choose Subject...");
+
+            for (int i = 0; i < subjects.Count; i++)
+            {
+                Console.Write("["+subjects[i].Name + $"= {i + 1}]");
+            }
+
+            int selectedSubjectIndex = int.Parse(Console.ReadLine()) - 1;
+            return subjects[selectedSubjectIndex];
         }
     }
 }
