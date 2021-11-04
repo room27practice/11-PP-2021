@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\11-PP-2021-main\\OOP\\Examples\\Examples.csproj": {}
+    "F:\\11-PP-2021\\OOP\\Examples\\Examples.csproj": {}
   },
   "projects": {
-    "E:\\11-PP-2021-main\\OOP\\Examples\\Examples.csproj": {
+    "F:\\11-PP-2021\\OOP\\Examples\\Examples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\Examples\\Examples.csproj",
+        "projectUniqueName": "F:\\11-PP-2021\\OOP\\Examples\\Examples.csproj",
         "projectName": "Examples",
-        "projectPath": "E:\\11-PP-2021-main\\OOP\\Examples\\Examples.csproj",
+        "projectPath": "F:\\11-PP-2021\\OOP\\Examples\\Examples.csproj",
         "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-        "outputPath": "E:\\11-PP-2021-main\\OOP\\Examples\\obj\\",
+        "outputPath": "F:\\11-PP-2021\\OOP\\Examples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

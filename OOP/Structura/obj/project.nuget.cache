@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ny5N6mL4fBoCW1VSQfk8lA4Hq1qJEPbDgGOSprvon+g3ggwdayPESP/MX0b4Xwd672mbDAduWyXFVEPU4EF0KQ==",
+  "dgSpecHash": "OONkl+ciJQEal+Jmz/1Z9ZaMi6WiueVg0/b4X3qZAdvE+4LSYqDPmU8Hg+t2g9u4BkOr2YBIAPtbpzzI+1RqdA==",
   "success": true,
-  "projectFilePath": "E:\\11-PP-2021-main\\OOP\\Structura\\Structura.csproj",
+  "projectFilePath": "F:\\11-PP-2021\\OOP\\Structura\\Structura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

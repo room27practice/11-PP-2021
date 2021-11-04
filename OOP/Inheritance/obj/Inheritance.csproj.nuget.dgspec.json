@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\11-PP-2021-main\\OOP\\Inheritance\\Inheritance.csproj": {}
+    "F:\\11-PP-2021\\OOP\\Inheritance\\Inheritance.csproj": {}
   },
   "projects": {
-    "E:\\11-PP-2021-main\\OOP\\Inheritance\\Inheritance.csproj": {
+    "F:\\11-PP-2021\\OOP\\Inheritance\\Inheritance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\Inheritance\\Inheritance.csproj",
+        "projectUniqueName": "F:\\11-PP-2021\\OOP\\Inheritance\\Inheritance.csproj",
         "projectName": "Inheritance",
-        "projectPath": "E:\\11-PP-2021-main\\OOP\\Inheritance\\Inheritance.csproj",
+        "projectPath": "F:\\11-PP-2021\\OOP\\Inheritance\\Inheritance.csproj",
         "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-        "outputPath": "E:\\11-PP-2021-main\\OOP\\Inheritance\\obj\\",
+        "outputPath": "F:\\11-PP-2021\\OOP\\Inheritance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

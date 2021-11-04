@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MISwbkBjKsaeVULIVrMiLjFhfI9q+6N0ER5RRlzgWWqFt3Kpr/bcl9CgG96QPCaG6EM7gQ3g9jx6CsBIRUOFDQ==",
+  "dgSpecHash": "fbSak8V3lpweBlb/QkWQ+aXMHCXPreYcb/eP0vlYY5OqhnP7BcOEV7fgTp8w7s3SFR85rbd/y1/MaWhLJr39rw==",
   "success": true,
-  "projectFilePath": "E:\\11-PP-2021-main\\OOP\\Moneti 2.0\\Moneti 2.0.csproj",
+  "projectFilePath": "F:\\11-PP-2021\\OOP\\Moneti 2.0\\Moneti 2.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",

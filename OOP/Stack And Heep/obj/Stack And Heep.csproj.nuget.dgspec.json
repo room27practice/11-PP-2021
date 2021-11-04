@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\11-PP-2021-main\\OOP\\Stack And Heep\\Stack And Heep.csproj": {}
+    "F:\\11-PP-2021\\OOP\\Stack And Heep\\Stack And Heep.csproj": {}
   },
   "projects": {
-    "E:\\11-PP-2021-main\\OOP\\Stack And Heep\\Stack And Heep.csproj": {
+    "F:\\11-PP-2021\\OOP\\Stack And Heep\\Stack And Heep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\Stack And Heep\\Stack And Heep.csproj",
+        "projectUniqueName": "F:\\11-PP-2021\\OOP\\Stack And Heep\\Stack And Heep.csproj",
         "projectName": "Stack And Heep",
-        "projectPath": "E:\\11-PP-2021-main\\OOP\\Stack And Heep\\Stack And Heep.csproj",
+        "projectPath": "F:\\11-PP-2021\\OOP\\Stack And Heep\\Stack And Heep.csproj",
         "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-        "outputPath": "E:\\11-PP-2021-main\\OOP\\Stack And Heep\\obj\\",
+        "outputPath": "F:\\11-PP-2021\\OOP\\Stack And Heep\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

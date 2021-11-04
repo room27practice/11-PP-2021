@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\RPG\\RPG.csproj",
+      "projectUniqueName": "F:\\11-PP-2021\\OOP\\RPG\\RPG.csproj",
       "projectName": "RPG",
-      "projectPath": "E:\\11-PP-2021-main\\OOP\\RPG\\RPG.csproj",
+      "projectPath": "F:\\11-PP-2021\\OOP\\RPG\\RPG.csproj",
       "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-      "outputPath": "E:\\11-PP-2021-main\\OOP\\RPG\\obj\\",
+      "outputPath": "F:\\11-PP-2021\\OOP\\RPG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -52,45 +52,25 @@ namespace Inheritance
 
             #endregion
 
-
-
-
-
-
-
-
-
-
-
-
-
             //Animal t1 = new Animal("Marko");
             //Dog t2 = new Dog("sharo");
             //t2.Breed = "San Bernar";
             //Duck t3 = new Duck();
             //Duck t4 = new Duck();
 
-
-
             //t3.Breed = "Niskoletqshta";
             //t2.Weight = 200;
 
             //List<Animal> animals = new List<Animal>();
-
             //animals.Add(t2);
             //animals.Add(t3);
             //animals.Add(t1);
-
-
             //Console.WriteLine(((Dog)animals[1]).TailLength);
-
         }
     }
 
     public class Test : Object
-    {
-
-    }
+    { }
 
     public class Animal
     {
@@ -127,7 +107,6 @@ namespace Inheritance
             Console.WriteLine("Woff Woff");
             Console.WriteLine(Breed);
         }
-
         public double TailLength { get; set; } = 99.2;
     }
 
@@ -144,9 +123,4 @@ namespace Inheritance
             Console.WriteLine("Quack Quack");
         }
     }
-
-
-
-
-
 }

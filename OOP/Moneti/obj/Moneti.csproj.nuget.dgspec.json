@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\11-PP-2021-main\\OOP\\Moneti\\Moneti.csproj": {}
+    "F:\\11-PP-2021\\OOP\\Moneti\\Moneti.csproj": {}
   },
   "projects": {
-    "E:\\11-PP-2021-main\\OOP\\Moneti\\Moneti.csproj": {
+    "F:\\11-PP-2021\\OOP\\Moneti\\Moneti.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\Moneti\\Moneti.csproj",
+        "projectUniqueName": "F:\\11-PP-2021\\OOP\\Moneti\\Moneti.csproj",
         "projectName": "Moneti",
-        "projectPath": "E:\\11-PP-2021-main\\OOP\\Moneti\\Moneti.csproj",
+        "projectPath": "F:\\11-PP-2021\\OOP\\Moneti\\Moneti.csproj",
         "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-        "outputPath": "E:\\11-PP-2021-main\\OOP\\Moneti\\obj\\",
+        "outputPath": "F:\\11-PP-2021\\OOP\\Moneti\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

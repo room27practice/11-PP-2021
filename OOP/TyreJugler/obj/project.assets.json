@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\11-PP-2021-main\\OOP\\TyreJugler\\TyreJugler.csproj",
+      "projectUniqueName": "F:\\11-PP-2021\\OOP\\TyreJugler\\TyreJugler.csproj",
       "projectName": "TyreJugler",
-      "projectPath": "E:\\11-PP-2021-main\\OOP\\TyreJugler\\TyreJugler.csproj",
+      "projectPath": "F:\\11-PP-2021\\OOP\\TyreJugler\\TyreJugler.csproj",
       "packagesPath": "C:\\Users\\Baron Samedi\\.nuget\\packages\\",
-      "outputPath": "E:\\11-PP-2021-main\\OOP\\TyreJugler\\obj\\",
+      "outputPath": "F:\\11-PP-2021\\OOP\\TyreJugler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
