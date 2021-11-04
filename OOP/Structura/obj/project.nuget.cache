@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ny5N6mL4fBoCW1VSQfk8lA4Hq1qJEPbDgGOSprvon+g3ggwdayPESP/MX0b4Xwd672mbDAduWyXFVEPU4EF0KQ==",
+  "success": true,
+  "projectFilePath": "E:\\11-PP-2021-main\\OOP\\Structura\\Structura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

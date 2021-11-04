@@ -1,0 +1,14 @@
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+E:\11-PP-2021-main\OOP\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.AssemblyReference.cache
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+E:\11-PP-2021-main\OOP\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache

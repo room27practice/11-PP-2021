@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1585
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moneti", "Moneti\Moneti.csproj", "{1E366482-E7EE-4A85-9B51-6DEF2ED580C2}"
 EndProject
@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack And Heep", "Stack And
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationsDemo", "EnumerationsDemo\EnumerationsDemo.csproj", "{741E2833-6A2A-4F56-95F4-19E508E4B1FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{D2613267-A5FB-4CF2-A46F-454DDEB22641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Examples.csproj", "{D2613267-A5FB-4CF2-A46F-454DDEB22641}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{A3A2018D-7626-4FCE-9487-3946ADAA7373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{0A4094BB-AB4F-406C-9860-64ABED8D60FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{D2613267-A5FB-4CF2-A46F-454DDEB22641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2613267-A5FB-4CF2-A46F-454DDEB22641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2613267-A5FB-4CF2-A46F-454DDEB22641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A2018D-7626-4FCE-9487-3946ADAA7373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A2018D-7626-4FCE-9487-3946ADAA7373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A2018D-7626-4FCE-9487-3946ADAA7373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A2018D-7626-4FCE-9487-3946ADAA7373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

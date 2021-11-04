@@ -1,0 +1,14 @@
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.exe
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.deps.json
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.runtimeconfig.json
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.runtimeconfig.dev.json
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.dll
+E:\11-PP-2021-main\OOP\RPG\bin\Debug\netcoreapp3.1\RPG.pdb
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.csproj.AssemblyReference.cache
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.GeneratedMSBuildEditorConfig.editorconfig
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.AssemblyInfoInputs.cache
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.AssemblyInfo.cs
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.csproj.CoreCompileInputs.cache
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.dll
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.pdb
+E:\11-PP-2021-main\OOP\RPG\obj\Debug\netcoreapp3.1\RPG.genruntimeconfig.cache

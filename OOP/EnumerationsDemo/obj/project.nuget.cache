@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "26kwdzCzbyi5JwQgeZ+5RMqOx+yLq2Nq0dBM5GEBltNKMDvKq/rlRGtafIUzPlne5RdHmkoCWVuQ6101x4qz5w==",
+  "success": true,
+  "projectFilePath": "E:\\11-PP-2021-main\\OOP\\EnumerationsDemo\\EnumerationsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Baron Samedi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
