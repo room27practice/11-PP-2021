@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{A3A2018D-7626-4FCE-9487-3946ADAA7373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG", "RPG\RPG.csproj", "{0A4094BB-AB4F-406C-9860-64ABED8D60FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPG", "RPG\RPG.csproj", "{0A4094BB-AB4F-406C-9860-64ABED8D60FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterFaceDemo", "InterFaceDemo\InterFaceDemo.csproj", "{B697FF82-2506-44FC-A130-406DE02A71A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4094BB-AB4F-406C-9860-64ABED8D60FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B697FF82-2506-44FC-A130-406DE02A71A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B697FF82-2506-44FC-A130-406DE02A71A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B697FF82-2506-44FC-A130-406DE02A71A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B697FF82-2506-44FC-A130-406DE02A71A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
