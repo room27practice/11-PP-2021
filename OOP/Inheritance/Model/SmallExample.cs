@@ -6,18 +6,18 @@ namespace Inheritance.Model
 {
     class Program
     {
-        static void Main()
-        {
-            Animal d1 = new Dog("Sharo", 3, "Chihuahauhauha");
-            Dog d2 = new Dog("Baro", 2, "Pudel");
-            List<Animal> things = new List<Animal>();
-            things.Add(d1);
-            things.Add(d2);
-            foreach (Animal anim in things)
-            {
-                Console.WriteLine(anim.Name);
-            }
-        }
+        //static void Main()
+        //{
+        //    Animal d1 = new Dog("Sharo", 3, "Chihuahauhauha");
+        //    Dog d2 = new Dog("Baro", 2, "Pudel");
+        //    List<Animal> things = new List<Animal>();
+        //    things.Add(d1);
+        //    things.Add(d2);
+        //    foreach (Animal anim in things)
+        //    {
+        //        Console.WriteLine(anim.Name);
+        //    }
+        //}
     }
     public abstract class Animal
     {

@@ -19,7 +19,7 @@ namespace Examples
 
 
             var test1 = new Example();
-            test1.
+            
           
 
         }
@@ -32,7 +32,7 @@ namespace Examples
 
     class Example
     {
-        private string name;
+       // private string name;
 
         public string Name { get; protected set; }
 
