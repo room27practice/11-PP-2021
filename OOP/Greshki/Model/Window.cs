@@ -16,7 +16,7 @@ namespace Greshki.Model
         {
             if (day=="combat")
             {
-            throw new BattleError("moq ap se schupi");
+            throw new BattleException("moq ap se schupi");
             }
 
             if (day=="schupi se qko")

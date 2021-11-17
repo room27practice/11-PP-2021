@@ -37,7 +37,7 @@ namespace Greshki
                 {
                     Console.WriteLine("Prazen string");
                 }
-                catch (BattleError ex)
+                catch (BattleException ex)
                 {
                     Console.WriteLine("Boi boi boi " + ex.Message);
 

@@ -6,5 +6,13 @@ namespace Greshki.Model
     {
         public BattleException(string msg) : base(msg)
         { }
+        public Severity Severity { get; set; }
+    }
+
+    public enum Severity
+    {
+        Critical,
+        Normal,
+        Info
     }
 }

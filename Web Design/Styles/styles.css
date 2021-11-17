@@ -76,3 +76,13 @@ p.moto:after {
     color: whitesmoke;
     border-radius: 0.5rem;
 }
+
+div.frm {
+    margin: 2rem 0 1rem 0.5rem;
+}
+
+div.frm>select {
+    border-radius: 0.25rem;
+    padding: 0, 2rem;
+    background-color: moccasin;
+}

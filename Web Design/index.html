@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="./Styles/reseter.css">
     <link rel="stylesheet" href="./Styles/styles.css">
+
 </head>
 
 <body>
@@ -51,10 +52,23 @@
 
 
         <form action="https://get.bg/catalogsearch/result/" method="get">
-            <label for=""></label>
-            <input type="text" id="fname" name="q" placeholder="searchInGetBg" required minlenght="3">
+            <label for="fname"> Име на продукт:</label>
+            <input type="text" id="fname" name="q" placeholder="searchInGetBg" required min="4">
 
-            <button type="submit"> Search</button>
+            <div class="frm">
+                <select name="town" class="form-select" aria-label="Default select example" required>
+                    <option disabled selected >Избери град</option>
+                    <option value="1">Шумен</option>
+                    <option value="2">Търговище</option>
+                    <option value="3">Перник</option>
+                    <option value="4">Варна</option>
+                </select>
+            </div>
+
+
+            <button type="submit"> Публикувай </button>
+
+
         </form>
 
 
