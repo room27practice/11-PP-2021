@@ -51,9 +51,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
             foreach (var gsmMatch in matches)
             {
                 var result = gsmMatch.ToString().Replace("-","").Replace(" ","").Replace("+359","0").Replace("+444","K");
-                results.Add(result);
-     
-
+                results.Add(result);   
             }
 
             Console.WriteLine(string.Join(Environment.NewLine,results));
