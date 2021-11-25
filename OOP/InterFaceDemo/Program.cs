@@ -19,14 +19,10 @@ namespace InterFaceDemo
             named_things[0].Name = "asdasd";
             named_things[0].Age = 2;
 
-
             PromotionService t1 = new PromotionService();
             INETProvider t2 = new PromotionService();
             ITVprovider t3 = new PromotionService();
             ITV_NETProvider t4 = new PromotionService();
-
-
-
         }
     }
 

@@ -1,8 +1,9 @@
 ﻿using HtmlAgilityPack;
-using System.Linq;
+
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace RegexDemoNamedGroups
@@ -12,7 +13,6 @@ namespace RegexDemoNamedGroups
         private static string destinationPath = "../../../result.txt";
         private static string pattern = @"<div\s+class=""anecdote-text""\s*>\s*<p>[\r\s]*(?<Vic>[^<]+)\r?";
         private static string[] cathegories = { "geroi-ot-prikazkite-182", "advokati-lekari-13" };
-
         private static string urlFormat = "https://www.vesti.bg/vicove/{0}/{1}";
 
         static void Main()
@@ -39,7 +39,7 @@ namespace RegexDemoNamedGroups
                     }
                 }
             }
-            Console.WriteLine("Jokes Downloaded: "+jokes.Count());
+            Console.WriteLine("Jokes Downloaded: " + jokes.Count());
             File.WriteAllText(destinationPath, string.Join(Environment.NewLine + new string('=', 70) + Environment.NewLine, jokes));
         }
 
