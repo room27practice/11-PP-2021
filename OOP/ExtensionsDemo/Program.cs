@@ -46,10 +46,6 @@ namespace ExtensionsDemo
                 new Monkey("Rikardo", 2,7.3)
             };
 
-
-
-
-
             List<Monkey> halfMonkeys = monkeys.GetHalf();
             Console.WriteLine(new string('=', 30));
             Console.WriteLine(string.Join(Environment.NewLine, halfMonkeys));

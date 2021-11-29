@@ -11,7 +11,18 @@ namespace Greshki
     {
         public static void Main()
         {
+
             Console.WriteLine("Hello World 6!");
+            try
+            {
+                int.Parse("asd");
+                Console.WriteLine("Hello World 6!");
+            }
+            catch  
+            {
+                Console.WriteLine("Problem..........................");
+            }
+
 
             //int number1 = int.Parse("51");
             //int number2 = int.Parse("asdasd");
@@ -33,23 +44,25 @@ namespace Greshki
                 {
                     Console.WriteLine($"Nevalidna operacia: {ex.Message}");
                 }
-                catch (ArgumentNullException)
+                catch (ArgumentNullException ex)
                 {
                     Console.WriteLine("Prazen string");
                 }
                 catch (BattleException ex)
                 {
                     Console.WriteLine("Boi boi boi " + ex.Message);
-
+                }
+                catch (ApplicationException ex)
+                {
+                    Console.WriteLine("Some app error unspecified " + ex.Message);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("Neochakvana greshka " + ex.Message);
-               
                 }
 
 
-
+                Console.WriteLine("Vsichko e tochno.");
             }
 
 
