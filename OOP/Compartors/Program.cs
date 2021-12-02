@@ -8,11 +8,8 @@ namespace Compartors
         static void Main()
         {
             var hero1 = new Hero("Johny Walker", 14, 20, 4);
-            var hero2 = new Hero("Rickardo Patron", 10, 15, 10);
+            var hero2 = new Hero("Rickardo Patron", 10, 15, 20);
             var hero3 = new Hero("Horhe", 7, 7, 7);
-
-
-
 
             var hero5 = hero1.Clone() as Hero;
             hero5.Name = "Genadi";
@@ -40,6 +37,24 @@ namespace Compartors
         }
     }
 
+    class Person : IComparable<Person>
+    {
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public int CompareTo(Person other)
+        {
+            if (this.Age>other.Age) return 1;
+            else if (this.Age < other.Age)   return -1;
+            return 0;
+        }
+    }
 
     class Hero : ICloneable, IComparable<Hero>
     {
