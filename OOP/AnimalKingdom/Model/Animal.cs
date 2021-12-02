@@ -25,12 +25,11 @@ namespace AnimalKingdom.Model
             get => weight;
             set
             {
-                if (value > 0)
+                if (value <= 0)
                 {
-                    weight = value;
+                    throw new ApplicationException("Invalid Weight");
                 }
-
-                throw new ApplicationException("Invalid Weight");
+                weight = value;
             }
         }
 
@@ -67,7 +66,7 @@ namespace AnimalKingdom.Model
 
         public override string ToString()
         {
-            return $"I am {Name} and I am {Age.TotalDays} days old.I weight {Weight:2F}";
+            return $"I am {Name} and I am {Age.TotalDays:F0} days old.I weight {Weight:F2} kg";
         }
 
     }

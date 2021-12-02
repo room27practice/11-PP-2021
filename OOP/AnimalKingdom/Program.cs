@@ -14,13 +14,13 @@ namespace AnimalKingdom
             Shimpanzee monkey1 = new Shimpanzee("Nemo", birthDayMonkey, 40.5, 8, true);
             Shimpanzee monkey2 = new Shimpanzee("Roki", birthDayMonkey.AddDays(-100), 52.7, 10, false);
             
-            Shimpanzee.
-
-
-
-            anim.Weight += 2;
+  
+              
 
             Console.WriteLine(Mammal.LifeSpan.Days);
+
+            Console.WriteLine(monkey2.ToString());
+
         }
     }
 }
