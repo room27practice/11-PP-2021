@@ -1,0 +1,95 @@
+@import url('./reset.css');
+@import url('./typography.css');
+
+main.site{
+min-width:20rem;
+max-width:60rem;
+height: auto;
+background-color: whitesmoke;
+margin: 10vh auto;
+}
+
+ul.content{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul.content>li {
+flex:0 0 19rem;
+display:flex;
+flex-direction: column;
+}
+
+div.title{
+    padding:0 2rem;
+    min-height:6rem;
+    padding-top:0.5rem;
+    margin-bottom:2rem;
+    flex-grow:0;
+}
+div.title>h1{
+    letter-spacing: 0.5rem;
+    font-size:2rem;
+    margin:0;
+}
+div.title>p{
+    color:rgb(131, 129, 156);
+}
+ul.content>li:nth-child(odd)>div.title{
+    border-left:3px solid gray;
+}
+
+ul.content>li img{
+    width:100%;
+    height:100%;
+}
+
+div.title+div{
+    flex-grow: 1;
+}
+
+
+div.pets{
+    padding:2rem;
+}
+ul.pet-form>li{
+    list-style-type: none;
+    margin-bottom:0.5rem;
+}
+
+button.add-field,button.rem-field{
+    border-radius: 1.2rem;
+    min-width: 2.675rem;
+    min-height: 2.675rem;
+    border: 3px solid rgb(148, 83, 191);
+    background-color: rgb(93, 150, 214);
+    color: lightgreen;
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+}
+
+button.rem-field{
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+button.add-field:hover,button.rem-field:hover{
+    color: rgb(93, 150, 214);
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+ul.pet-form>li>label{
+    margin-right: 1rem;
+    padding-left: 0.25rem;
+}
+ul.pet-form>li>input{
+   
+    padding-left: 0.33rem;
+    font-style: italic;
+}
+
+

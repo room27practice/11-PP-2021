@@ -30,7 +30,7 @@ namespace ElektronenDnevnik
         public string Name { get; set; }
         public int Id { get; }
 
-        public List<SubjectGrades> SubjectsGrades { get; set; }
+        public List<SubjectGrades> SubjectsGrades { get; set;}
 
 
         public List<SubjectGrades> GetHangingSubjects => 
