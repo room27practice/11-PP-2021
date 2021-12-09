@@ -6,4 +6,8 @@
     <RootNamespace>Moneti_2._0</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.38" />
+  </ItemGroup>
+
 </Project>

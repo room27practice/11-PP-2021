@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "CreateHero";
+}
+
+<h2> Create new Hero</h2>
+
+
+<form class="reg-hero" method="post" asp-controller="Hero" asp-action="Create" >
+    <div class="item">
+        <label>Hero Name:</label>
+        <input name="Name" type="text" />
+    </div>
+    <div class="item3">
+        <label>Hero Fraction:</label>
+
+        @foreach (var item in Enum.GetValues<Fraction>())
+        {
+            <input id="fr@((int)item)" name="Fraction" type="radio" value="@((int)item)" />
+            <label for="fr@((int)item)">@item</label>
+        }
+
+    </div>
+
+    <input type="submit"  value="Register Hero" />
+</form>

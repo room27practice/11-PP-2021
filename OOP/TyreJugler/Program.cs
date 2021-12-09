@@ -49,15 +49,15 @@ namespace TyreJugler
             };
 
 
-            Tyre[] tyres = { leftBackTyre, rightFrontTyre, rightBackTyre ,
-                new Tyre()
-            {
-                Manufacturer = producer1,
-                Season = "Spring",
-                MaxPressureBars = 8,
-                Material = "Wood"
-            }
-        };
+        //    Tyre[] tyres = { leftBackTyre, rightFrontTyre, rightBackTyre ,
+        //        new Tyre()
+        //    {
+        //        Manufacturer = producer1,
+        //        Season = "Spring",
+        //        MaxPressureBars = 8,
+        //        Material = "Wood"
+        //    }
+        //};
 
             foreach (Tyre item in tyres.OrderByDescending(x=>x.MaxPressureBars).Where(x=>x.MaxPressureBars>10))
             {

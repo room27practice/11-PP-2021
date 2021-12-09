@@ -15,8 +15,64 @@ namespace Examples
             Console.WriteLine(tc.Name);
             tc.Name = "c"; //Chubaka -> Ch...
             Console.WriteLine(tc.Name);
+
+
+
+            var test1 = new Example();
+            
+          
+
+        }
+
+    }
+
+
+
+
+
+    class Example
+    {
+       // private string name;
+
+        public string Name { get; protected set; }
+
+        public void SayHello()
+        {
+            if (IsEvenDate())
+            {
+                Console.WriteLine("Hello");
+
+            }
+            else
+            {
+                Console.WriteLine("Goodbye");
+            }
+
+        }
+
+
+        private bool IsEvenDate()
+        {
+            return DateTime.UtcNow.Day % 2 == 0;
+        }
+
+    }
+
+    class BigExample : Example
+    {
+        public void Rename(string newName)
+        {
+            Console.WriteLine(Name);
+            Name = newName;
         }
     }
+
+
+
+
+
+
+
 
     class TestClass
     {
@@ -45,7 +101,7 @@ namespace Examples
                     Console.WriteLine("Invalid name, must be longer than 2 letters");
                     return;
                 }
-                name = value;                
+                name = value;
             }
         }
     }
