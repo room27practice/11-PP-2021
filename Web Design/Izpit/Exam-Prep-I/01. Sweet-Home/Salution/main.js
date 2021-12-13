@@ -5,7 +5,7 @@ window.onload = (event) => {
 
     let imgEl = document.querySelector("ul.content>li img");
     let buttonAdd = document.querySelector("button.add-field");
-    let buttonRem = document.querySelector("button.rem-field");
+    let buttonRem = document.querySelectorAll("button.rem-field");
     let petUl = document.querySelector("ul.pet-form");
     let counter = petUl.children.length;
     console.log("Dqdo vadi rqpa");
@@ -23,7 +23,6 @@ window.onload = (event) => {
         newInput.setAttribute("placeholder", `Write Pet Name ${counter}`);
         newInput.classList.add(`pet-name`);
         newLi.appendChild(newInput);
-
         let newRemBtn = document.createElement("button");
         newRemBtn.innerHTML = `<i class="far fa-minus-square">`;
         newRemBtn.classList.add("rem-field");
