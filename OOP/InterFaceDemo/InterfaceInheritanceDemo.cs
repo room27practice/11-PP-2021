@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InterFaceDemo
+﻿namespace InterFaceDemo
 {
-   public interface ITVprovider
+    public interface ITVprovider
     {
         int ChanelCount { get; set; }
     }

@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compartors", "Compartors\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsDemo", "GenericsDemo\GenericsDemo.csproj", "{1CFD8DB3-CAB2-44DF-99BF-3C86E8BEAAF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Demo", "Linq_Demo\Linq_Demo.csproj", "{00B8F9BE-1328-48E1-8BBA-7067D30306EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

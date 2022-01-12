@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace ElektronenDnevnik
+﻿namespace ElektronenDnevnik
 {
     public class Subject
     {

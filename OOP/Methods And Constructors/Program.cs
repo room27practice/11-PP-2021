@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Methods_And_Constructors
+﻿namespace Methods_And_Constructors
 {
     class Program
     {
