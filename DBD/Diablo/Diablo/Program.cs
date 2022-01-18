@@ -40,7 +40,6 @@ namespace Diablo
             }
         }
 
-
         public static List<Game> GetAllUserGames()
         {
             var context = new DiabloContext();

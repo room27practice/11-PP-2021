@@ -8,6 +8,10 @@ namespace Diablo.Models
 {
     public partial class DiabloContext : DbContext
     {
+
+        private static string connectionString = "workstation id=DiabloDb.mssql.somee.com;packet size=4096;user id=room27_SQLLogin_4;pwd=lywld4a9bv;data source=DiabloDb.mssql.somee.com;persist security info=False;initial catalog=DiabloDb";
+
+
         public DiabloContext()
         {
         }
@@ -33,7 +37,7 @@ namespace Diablo.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-H86OA8E\\SQLEXPRESS;Database=Diablo;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(connectionString);
             }
         }
 
