@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsDemo", "GenericsDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{7EF3B1F2-F58A-43D8-9103-AF8CC9588594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Demo", "Linq_Demo\Linq_Demo.csproj", "{00B8F9BE-1328-48E1-8BBA-7067D30306EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_Demo", "Linq_Demo\Linq_Demo.csproj", "{00B8F9BE-1328-48E1-8BBA-7067D30306EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousDemo", "AnonymousDemo\AnonymousDemo.csproj", "{C29CD1A4-78E7-47A7-BC6E-914FD7AA9AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B8F9BE-1328-48E1-8BBA-7067D30306EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29CD1A4-78E7-47A7-BC6E-914FD7AA9AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29CD1A4-78E7-47A7-BC6E-914FD7AA9AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29CD1A4-78E7-47A7-BC6E-914FD7AA9AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29CD1A4-78E7-47A7-BC6E-914FD7AA9AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
