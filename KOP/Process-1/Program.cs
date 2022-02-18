@@ -16,7 +16,6 @@ namespace Process_1
             var cpuInfo = Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER");
             Console.WriteLine(cpuInfo);
 
-
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             BigInteger sum_a = SumAllEvenNumbersAssinc(0, 100000000);
