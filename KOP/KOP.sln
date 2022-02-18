@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process-1", "Process-1\Process-1.csproj", "{569FA6B4-9128-4264-A9DE-4C159DADCEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process-1", "Process-1\Process-1.csproj", "{569FA6B4-9128-4264-A9DE-4C159DADCEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocking Operations", "Blocking Operations\Blocking Operations.csproj", "{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{569FA6B4-9128-4264-A9DE-4C159DADCEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569FA6B4-9128-4264-A9DE-4C159DADCEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569FA6B4-9128-4264-A9DE-4C159DADCEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
