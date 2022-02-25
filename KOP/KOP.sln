@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process-1", "Process-1\Process-1.csproj", "{569FA6B4-9128-4264-A9DE-4C159DADCEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocking Operations", "Blocking Operations\Blocking Operations.csproj", "{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blocking Operations", "Blocking Operations\Blocking Operations.csproj", "{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMaking", "ThreadMaking\ThreadMaking.csproj", "{969EF5C4-1041-4889-A353-CCC18C1FAAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58DB55A-8F40-4C17-859A-9A05AC2EED8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969EF5C4-1041-4889-A353-CCC18C1FAAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969EF5C4-1041-4889-A353-CCC18C1FAAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969EF5C4-1041-4889-A353-CCC18C1FAAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969EF5C4-1041-4889-A353-CCC18C1FAAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

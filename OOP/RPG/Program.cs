@@ -21,6 +21,8 @@ namespace RPG
             h1.LevelUp();
             double heroAtk2 = h1.GetAttack();
             double heroDef2 = h1.GetDefence();
+
+                   
         }
     }
 
