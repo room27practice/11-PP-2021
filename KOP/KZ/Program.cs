@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 
 namespace KZ
@@ -19,15 +18,17 @@ namespace KZ
 
             var totalBefore = employees.Sum(x => x.Salary);
             Console.WriteLine($"Before change Total Cost: {totalBefore:F2} $.");
-            Console.WriteLine(new String('=',20));
+            Console.WriteLine(new String('=', 40));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            //
+            // Подобрете кода направете го асинхронен за да се изпълнява по-бързо.
             foreach (Employee emp in employees)
             {
                 emp.Salary *= 1.1m;
             }
             //
+
+            Console.WriteLine(new String('=', 40));
             watch.Stop();
             Console.WriteLine($"Salary Increase was performed for : {watch.Elapsed.Minutes} minutes and {watch.Elapsed.Seconds} seconds");
             var totalAfter = employees.Sum(x => x.Salary);
@@ -58,7 +59,7 @@ namespace KZ
         }
     }
 
-   static class Data
+    static class Data
     {
         public static string Records { get; set; } = @"Salem,Honniebal,7307.17
 Dorri,Pocknell,4544.27
@@ -161,6 +162,4 @@ Gilberta,Annes,3358.17
 Andonis,Seemmonds,9520.05
 Samara,Callaby,9156.11";
     }
-
-
 }
