@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,10 +10,12 @@ namespace ThreadsMaking
     {
         static async Task Main(string[] args)
         {
+           
             var watch = new Stopwatch();
             watch.Start();
-            CookBreakfast(); //23 s
-                             //   CookBreakfastAsync().Wait(); //14 s
+ 
+          //  CookBreakfast(); //23 s
+                                CookBreakfastAsync().Wait(); //14 s
                              //  CookBreakfastOptimizedAsync().Wait(); //12 s
             watch.Stop();
             Console.WriteLine($"Total Time needed to make breakfast: {watch.Elapsed.Seconds:F1}");
@@ -42,6 +45,10 @@ namespace ThreadsMaking
 
         private static async Task CookBreakfastAsync()
         {
+
+            int id = Thread.CurrentThread.ManagedThreadId;
+            Console.WriteLine("Main Thread Id:" + id);
+
             Coffee cup = PourCoffee();
             Console.WriteLine("coffee is ready");
 
@@ -51,8 +58,8 @@ namespace ThreadsMaking
             Task<Bacon> baconT = FryBaconAsync(3); // Има смисъл от асинхронно но трябва да се изчака, иначе закуската приключва преди бекона да е готов!
             Console.WriteLine("bacon is ready");
 
-            var toast = ToastBreadAsync(2); // Има смисъл от асинхронно защото можем да налеем сок докато се препича
-
+            var toast = ToastBreadAsync(2);// Има смисъл от асинхронно защото можем да налеем сок докато се препича
+            
             Juice oj = PourOJ(); //Няма смисъл от асинхронно защото чакаме филийките така или иначе а те отнемат повече време
 
             Console.WriteLine("oj is ready");
@@ -67,7 +74,7 @@ namespace ThreadsMaking
         }
 
         private static async Task CookBreakfastOptimizedAsync()
-        {
+        {            
             Coffee cup = PourCoffee();
             Console.WriteLine("coffee is ready");
             Task usePan = Task.Run(() =>
@@ -78,7 +85,7 @@ namespace ThreadsMaking
                 Console.WriteLine("bacon is ready");
             });
 
-            var toast = ToastBreadAsync(2); // Има смисъл от асинхронно защото можем да налеем сок докато се препича
+            Task<Toast> toast = ToastBreadAsync(2); // Има смисъл от асинхронно защото можем да налеем сок докато се препича
 
             Juice oj = PourOJ(); //Няма смисъл от асинхронно защото чакаме филийките така или иначе а те отнемат повече време
 
@@ -119,9 +126,14 @@ namespace ThreadsMaking
 
             return new Toast();
         }
+        public static List<int> ThreadIds { get; set; } = new List<int>();
 
         private static async Task<Toast> ToastBreadAsync(int slices)
         {
+            int id = Thread.CurrentThread.ManagedThreadId;
+            ThreadIds.Add(id);
+            Console.WriteLine("Secondary Thread Id:" + id);
+
             for (int slice = 0; slice < slices; slice++)
             {
                 Console.WriteLine("Putting a slice of bread in the toaster");
