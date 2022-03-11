@@ -13,7 +13,7 @@ namespace KZ
             var employees = data
                 .Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries)
                 .Select(s => s.Split(",", StringSplitOptions.RemoveEmptyEntries))
-                .Select(a3 => new Employee($"{a3[0]} {a3[1]}", decimal.Parse(a3[2])))
+                .Select(a3 => new Employee($"{a3[0]} {a3[1]}", decimal.Parse(a3[2].Trim())))
                 .ToList();
 
             var totalBefore = employees.Sum(x => x.Salary);
