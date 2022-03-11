@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -8,22 +9,30 @@ namespace TasksCreatingKOP
     {
         static void Main(string[] args)
         {
-            // // PrintStatus();
-            //  Task t1 = new Task(()=> PrintStatus(0.5));
-            //  t1.Start();
+            // PrintStatus();
+            //#region OneProcessDemo                       
+            //Task t1 = new Task(() => PrintStatus("Process 1", 0.5));
+            //t1.Start();
+            //CalculateNumbers();
+            //Console.WriteLine("Produljavame s neshtata");
+            //t1.Wait(); // Ако го няма няма да чака статусите да са стигнали 100%
+            //#endregion
 
+            #region TwoOrMoreProcessesDemo          
+            List<Task> tasks = new List<Task>();
+            tasks.Add( new Task(() => PrintStatus("Process 1", 0.5)));
+            tasks.Add( new Task(() => PrintStatus("Process 2", 0.8)));
+            tasks.Add(new Task(() => PrintStatus("Process 3", 1.0)));
 
-            //  CalculateNumbers();
-            //  Console.WriteLine("Produljavame s neshtata");
-            ////  t1.Wait();
-            ///
+            foreach (var t in tasks)
+            {
+                t.Start();
+            }
 
-            Task t1 = new Task(() => CalculateNumbers());
-            t1.Start();
-
-            PrintStatus(0.5);
+            CalculateNumbers();
             Console.WriteLine("Produljavame s neshtata");
-            t1.Wait();
+            Task.WaitAll(tasks.ToArray());
+            #endregion
         }
 
         public static void CalculateNumbers()
@@ -47,10 +56,7 @@ namespace TasksCreatingKOP
                 Console.WriteLine(new String('-', 25));
             }
             Console.WriteLine("Goodbye");
-
         }
-
-
         public static void ConvertDecimalToBynary()
         {
             Console.Write("Input Decimal Number: ");
@@ -86,10 +92,7 @@ namespace TasksCreatingKOP
             Console.WriteLine("Result: " + result);
         }
 
-
-
-
-        public static void PrintStatus(double timeFor1PercentSeconds = 1)
+        public static void PrintStatus(string name, double timeFor1PercentSeconds = 1)
         {
             int readyness = 0;
             while (readyness < 100)
@@ -98,14 +101,11 @@ namespace TasksCreatingKOP
                 Thread.Sleep((int)(timeFor1PercentSeconds * 1000));
                 if (readyness % 5 == 0)
                 {
-                    Console.WriteLine($"Update {readyness}% completed :)");
+                    Console.WriteLine($"[{name}] Update {readyness}% completed :)");
                 }
             }
 
-            Console.WriteLine("Task Finished");
+            Console.WriteLine($"Task {name} Finished");
         }
-
-
-
     }
 }
