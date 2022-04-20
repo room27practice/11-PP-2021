@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeUnsafeCode", "SafeUnsaf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BynaryDecimalConvertor", "ConsoleApp3\BynaryDecimalConvertor.csproj", "{5A1064DF-A339-400C-9227-C3ED78791B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksCreatingKOP", "TasksCreatingKOP\TasksCreatingKOP.csproj", "{6D19A804-5732-4AC9-A6CF-B130F54E69C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksCreatingKOP", "TasksCreatingKOP\TasksCreatingKOP.csproj", "{6D19A804-5732-4AC9-A6CF-B130F54E69C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamant", "Diamant\Diamant.csproj", "{3A0ACD48-8333-45CD-8FEE-0B2D2695A2FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{6D19A804-5732-4AC9-A6CF-B130F54E69C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D19A804-5732-4AC9-A6CF-B130F54E69C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D19A804-5732-4AC9-A6CF-B130F54E69C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0ACD48-8333-45CD-8FEE-0B2D2695A2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0ACD48-8333-45CD-8FEE-0B2D2695A2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0ACD48-8333-45CD-8FEE-0B2D2695A2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0ACD48-8333-45CD-8FEE-0B2D2695A2FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

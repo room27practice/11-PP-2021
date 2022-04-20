@@ -24,6 +24,41 @@ namespace TasksCreatingKOP
             tasks.Add( new Task(() => PrintStatus("Process 2", 0.8)));
             tasks.Add(new Task(() => PrintStatus("Process 3", 1.0)));
 
+            Task t1 = new Task(() => PrintStatus("Process 1", 0.5));
+            t1.Start();
+            //Действия с кода по основната нишка докато се изпълнява t
+            TaskStatus st1 = t1.Status; // Връща енумерация със състоянието на асинхронния процес.
+            t1.Wait(); // Основната нишка чака да приключи t и чак тогава продължава с кода под този ред.
+       
+            
+            
+            var taskA= Task.Run(() =>
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    Console.WriteLine("Hello");
+                }
+            });
+
+            var getSum1to10=new Task<int>(() =>
+            {
+                int sum = 0;
+                for (int i = 1; i <= 10; i++)
+                {
+                    sum += i;
+                    Thread.Sleep(1000);
+                }
+                return sum;
+            });
+
+
+            getSum1to10.Start();
+
+            //getSum1to10.Wait();
+            //Console.WriteLine(getSum1to10.Result);
+
+            Console.WriteLine(getSum1to10.GetAwaiter().GetResult());
+            
             foreach (var t in tasks)
             {
                 t.Start();
